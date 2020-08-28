@@ -1,0 +1,15 @@
+footer, header, section, .remit-status, .about, .subsidiaries, .register{
+    display: grid;
+    grid-template-columns: 1fr 1024px 1fr;
+}
+.footer-content, .header-content, .home-content, .services, .remit-status-content, .about-content, .subsidiaries-content, .register-content {
+    grid-column: 2/-2;
+}
+html {
+    overflow-x: hidden;
+    background-image: url("./background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

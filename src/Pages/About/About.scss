@@ -1,0 +1,36 @@
+.about {
+  background-image: url("./aboutbg.svg");
+  background-position: center;
+  background-size: cover;
+}
+.about-content {
+  .top {
+    padding: 3rem;
+  }
+  .company-image-wrapper {
+    width: 800px; //relative to vw
+    margin: 0 auto;
+  }
+  .bottom {
+    h1 {
+      margin: 2rem;
+      text-align: center;
+    }
+  }
+  .about-information {
+    width: 65%;
+    margin: 2rem auto 100px auto;
+    height: 85vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    padding-right: 1rem;
+
+    h2 {
+      margin: 1.5rem 0;
+    }
+    p {
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+    }
+  }
+}

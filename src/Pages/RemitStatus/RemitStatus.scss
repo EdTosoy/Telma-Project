@@ -1,0 +1,82 @@
+.remit-status {
+  background-color: white;
+}
+.remit-status-content {
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .left {
+    padding: 1.5rem;
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #0f0f1f;
+    }
+    h3 {
+      font-size: 1.8rem;
+      font-weight: 100;
+      color: #171733;
+    }
+  }
+  .right {
+    background-color: #171733;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 2rem;
+    box-shadow: -3px 3px 2px black, 3px -3px 2px gray;
+    p {
+      color: white;
+      margin-bottom: 2rem;
+    }
+  }
+  form {
+    label {
+      display: block;
+      color: skyblue;
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+    input {
+      height: 2.5rem;
+      width: 100%;
+      padding: 10px 5px;
+      font-size: 1.2rem;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+      border: none;
+      &:focus {
+        border: 2px solid #0f0f1f;
+      }
+    }
+  }
+  button {
+    margin-top: 1rem;
+    padding: 5px 0;
+    width: 20%;
+    margin-left: 80%;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+    color: white;
+    background-color: crimson;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+}
+
+.note {
+  margin-top: 2rem;
+  font-size: 13px;
+  text-align: justify;
+  grid-column: 2/-1;
+}

@@ -1,0 +1,36 @@
+.subsidiaries-content {
+  z-index: 1;
+  .top {
+    .image-wrapper {
+      width: 85%;
+      margin: 0 auto;
+      height: 450px;
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .bottom {
+    .subsidiaries-showcase {
+      width: 85%;
+      margin: 4rem auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3rem;
+    }
+    .subsidiary {
+      cursor: pointer;
+      height: 159px;
+      background-color: black;
+      opacity: 0.9;
+      &:hover {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        opacity: 1;
+      }
+    }
+  }
+}

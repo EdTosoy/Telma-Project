@@ -1,0 +1,104 @@
+.register {
+  background-color: white;
+}
+.register-content {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  .left {
+    height: 350px;
+    max-width: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    h1 {
+      font-size: 4rem;
+      font-weight: 100;
+      color: #171733;
+      margin-left: -4px;
+    }
+    p {
+      font-size: 18px;
+    }
+    .steps {
+      display: flex;
+      max-width: 370px;
+      justify-content: space-between;
+    }
+    .step {
+      div {
+        margin: 10px auto;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid crimson;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+      .active {
+        background-color: crimson;
+        color: white;
+      }
+    }
+  }
+  .right {
+    width: 450px;
+    form {
+      padding: 2rem;
+      background-color: #171733;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+      box-shadow: -3px 3px 10px black, 3px -3px 10px gray;
+      .row {
+        label {
+          font-size: 18px;
+          display: block;
+          color: white;
+          padding-top: 10px;
+          padding-bottom: 4px;
+        }
+        input {
+          width: 100%;
+          height: 2rem;
+          font-size: 18px;
+          padding-left: 5px;
+          border-radius: 3px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          -ms-border-radius: 3px;
+          -o-border-radius: 3px;
+        }
+      }
+      .row-doubled {
+        display: flex;
+        justify-content: space-between;
+        .row {
+          width: 45%;
+        }
+      }
+
+      button {
+        cursor: pointer;
+        margin-top: 2rem;
+        padding: 5px;
+        font-size: 1.5rem;
+        color: white;
+        border: none;
+        width: 100%;
+        background-color: crimson;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+      }
+    }
+  }
+}

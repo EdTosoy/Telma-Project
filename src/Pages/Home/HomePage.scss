@@ -1,0 +1,61 @@
+.home-content {
+  margin-top: 4rem;
+  display: grid;
+  justify-content: space-between;
+  grid-template-areas:
+    "credit-card person-wrapper"
+    "tag-line person-wrapper";
+}
+.credit-card-wrapper {
+  margin-left: -10px;
+  width: 450px;
+  grid-area: credit-card;
+}
+.person-wrapper {
+  margin-bottom: -5px;
+  width: 298px;
+  grid-area: person-wrapper;
+}
+.tag-line {
+  color: #171733;
+  width: 450px;
+  grid-area: tag-line;
+  font-size: 2.1rem;
+}
+
+.white {
+  grid-column: 2/-2;
+  height: 3rem;
+  width: 100vw;
+  background: white;
+}
+
+.services {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.services-content {
+  display: flex;
+  justify-content: space-between;
+
+  .left {
+    width: 430px;
+    font-size: 18px;
+    p {
+      color: dimgray;
+    }
+    h2 {
+      font-size: 3em;
+      font-weight: 100;
+      margin-bottom: 1rem;
+      color: #171733;
+    }
+    h3 {
+      margin-top: 1rem;
+      font-size: 2em;
+      font-weight: 100;
+      color: #041f4f;
+    }
+  }
+}

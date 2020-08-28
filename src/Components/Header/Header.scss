@@ -1,0 +1,13 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 0;
+}
+header {
+    margin-top: 1rem;
+    background-color: #f8f8f8;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}

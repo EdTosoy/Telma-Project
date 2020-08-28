@@ -1,0 +1,33 @@
+.services-content {
+  .right {
+    width: 400px;
+  }
+
+  figure {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 8px;
+
+    div {
+      background: #0f0f1f;
+      display: grid;
+      place-content: center;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+    }
+    .icon-wrapper {
+      width: 100px;
+      height: 80px;
+      margin: 0 auto;
+    }
+    p {
+      color: white;
+      font-size: 1.5rem;
+    }
+  }
+}
