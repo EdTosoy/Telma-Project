@@ -1,74 +1,74 @@
-<h1 align="center">
-  Telma 
-  
-</h1>
-<p align="center">
-  A Total Logistics Website for Total Logistics Company,
-  This Project helps the users to track, Contact, and see Shipping Rates in Telma's services. It is
-  build with React.js, React Router, SCSS(CSS), Webpack as bundler.
-</p>
+  <h1 align="center">
+    Telma 
+    
+  </h1>
+  <p align="center">
+  A Simple Minimalist Banking website for TELMA, a full-service universal bank, it provides a complete array of industry-leading products and services. It is built with React.js, React Router, SCSS(CSS), Firebase as Back-End, Webpack as bundler.
+  </p>
 
-![demo](https://github.com/EdTosoy/Telma-Project/blob/master/Demo.png?raw=true)
+  ![demo](https://github.com/EdTosoy/Telma-Project/blob/master/Demo.png?raw=true)
 
-## Built With
+  ## Built With
 
-- React.js
-- React Router Dom
-- SCSS(CSS)
-- Webpack
+  - React.js
+  - React Router Dom
+  - SCSS(CSS)
+  - Firebase
+  - Webpack
 
-## Installation & Setup
+  ## Installation & Setup
 
-1. Clone the Repository
+  1. Clone the Repository
 
-   ```sh
-   git clone git@github.com:EdTosoy/Telma-Project.git
-   ```
+     ```sh
+     git clone git@github.com:EdTosoy/Telma-Project.git
+     ```
 
-2. Install node modules and Dependencies
+  2. Install node modules and Dependencies
 
-   ```sh
-   npm install
-   ```
+     ```sh
+     npm install
+     ```
 
-   > or
+     > or
 
-   ```sh
-   yarn install
-   ```
+     ```sh
+     yarn install
+     ```
 
-3. Start the Development Server
+  3. Start the Development Server
 
-   ```sh
-   npm start
-   ```
+     ```sh
+     npm start
+     ```
 
-   > or
+     > or
 
-   ```sh
-   yarn start
-   ```
+     ```sh
+     yarn start
+     ```
 
-4. For Production just type the command
+  4. For Production just type the command
 
-   ```sh
-   npm build
-   ```
+     ```sh
+     npm build
+     ```
 
-   > or
+     > or
 
-   ```sh
-   yarn build
-   ```
+     ```sh
+     yarn build
+     ```
 
-## Dependencies
+  ## Dependencies
 
-- React.js
-- React Router Dom
-- Node-sass
-- Webpack
+  - React.js
+  - React Router Dom
+  - Node-sass
+  - firebase
+  - Webpack
 
-## Screen Shots
+  ## Screen Shots
 
-![demo](https://github.com/EdTosoy/Telma-Project/blob/master/ScreenShot1.png?raw=true)
-![demo](https://github.com/EdTosoy/Telma-Project/blob/master/ScreenShot2.png?raw=true)
+  ![demo](https://github.com/EdTosoy/Telma-Project/blob/master/ScreenShot1.png?raw=true)
+  ![demo](https://github.com/EdTosoy/Telma-Project/blob/master/ScreenShot2.png?raw=true)
